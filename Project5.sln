@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirplaneAndHotelSpace", "AirplaneAndHotelSpace\AirplaneAndHotelSpace.csproj", "{A7EAA627-03F2-42DC-AE27-8ED05F3AD86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripBookingWebApp", "TripBookingWebApp\TripBookingWebApp.csproj", "{1573D660-760D-404C-8E90-1DA2E2E67E95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6668DE21-743F-4DEA-BCB3-1D9307CC568A} = {6668DE21-743F-4DEA-BCB3-1D9307CC568A}
+		{A7EAA627-03F2-42DC-AE27-8ED05F3AD86B} = {A7EAA627-03F2-42DC-AE27-8ED05F3AD86B}
+		{1279B4F8-0847-47E6-ACD9-DD0DE281B16E} = {1279B4F8-0847-47E6-ACD9-DD0DE281B16E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripBookingLibrary", "TripBookingLibrary\TripBookingLibrary.csproj", "{5FF7DEAA-C638-446C-85F6-316EBBF4C181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wcf(getvactionspotservice)", "GetVacationService\Wcf(getvactionspotservice).csproj", "{1279B4F8-0847-47E6-ACD9-DD0DE281B16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5DayForecast", "WeatherService\5DayForecast.csproj", "{6668DE21-743F-4DEA-BCB3-1D9307CC568A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7EAA627-03F2-42DC-AE27-8ED05F3AD86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EAA627-03F2-42DC-AE27-8ED05F3AD86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EAA627-03F2-42DC-AE27-8ED05F3AD86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EAA627-03F2-42DC-AE27-8ED05F3AD86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1573D660-760D-404C-8E90-1DA2E2E67E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1573D660-760D-404C-8E90-1DA2E2E67E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1573D660-760D-404C-8E90-1DA2E2E67E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1573D660-760D-404C-8E90-1DA2E2E67E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF7DEAA-C638-446C-85F6-316EBBF4C181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF7DEAA-C638-446C-85F6-316EBBF4C181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF7DEAA-C638-446C-85F6-316EBBF4C181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF7DEAA-C638-446C-85F6-316EBBF4C181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1279B4F8-0847-47E6-ACD9-DD0DE281B16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1279B4F8-0847-47E6-ACD9-DD0DE281B16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1279B4F8-0847-47E6-ACD9-DD0DE281B16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1279B4F8-0847-47E6-ACD9-DD0DE281B16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6668DE21-743F-4DEA-BCB3-1D9307CC568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6668DE21-743F-4DEA-BCB3-1D9307CC568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6668DE21-743F-4DEA-BCB3-1D9307CC568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6668DE21-743F-4DEA-BCB3-1D9307CC568A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {766BC346-5306-4E64-A81A-E199DD626478}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="df98004c-0d75-4430-ac80-9b1f297914be" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:54814/AirportAndHotelService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AirportAndHotelService.xsd" MetadataType="Schema" ID="dcd71d19-e4b1-46aa-9757-6e3811629fee" SourceId="1" SourceUrl="http://localhost:54814/AirportAndHotelService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AirportAndHotelService.disco" MetadataType="Disco" ID="2e5d6fb9-98d1-4101-80ab-9769bbed9b19" SourceId="1" SourceUrl="http://localhost:54814/AirportAndHotelService.svc?disco" />
+    <MetadataFile FileName="AirportAndHotelService1.xsd" MetadataType="Schema" ID="ab4eb2d9-0919-4038-bc54-7c4ab058be37" SourceId="1" SourceUrl="http://localhost:54814/AirportAndHotelService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AirportAndHotelService2.xsd" MetadataType="Schema" ID="00acb3c8-42ad-4f2b-a0a6-7a3a31194874" SourceId="1" SourceUrl="http://localhost:54814/AirportAndHotelService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AirportAndHotelService.wsdl" MetadataType="Wsdl" ID="78e20ae1-a84a-44de-a6a5-ce69a57acaf1" SourceId="1" SourceUrl="http://localhost:54814/AirportAndHotelService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
